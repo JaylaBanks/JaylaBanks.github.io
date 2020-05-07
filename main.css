@@ -6,25 +6,28 @@ body {
 }
 
 h1 {
-	font-size: 32px;
+	font-size: 25px;
   font-family:Palatino,'Palatino Linotype',serif;
   color:Burlywood;
 }
 
 h2 {
-	font-size: 56px;
+	font-size:25px;
 }
 
 
 .hero {
   font-family: 'Trebuchet MS',Helvetica, sans-serif;
-	padding: 250px 0;
+	padding: 200px 0;
 	margin: 30px;
+	font-size:40px;
+	background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vectorstock.com%2Froyalty-free-vector%2Fworld-map-countries-geography-vector-9920386&psig=AOvVaw388ZJN74MIhg5xcglfnnjw&ust=1588936695837000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLiW18zQoekCFQAAAAAdAAAAABAE");
 }
 
 
 p {
-  font-size:2rem;
+  font-size:20px;
+	color: darkmagenta;
 
 }
 
@@ -32,4 +35,3 @@ p {
 	color: #00FFAA;
 	font-size: 1.25em;
 	text-decoration: none;
-}
