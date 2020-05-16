@@ -1,37 +1,25 @@
-body {
-	height: 100%;
-	margin: 0;
-	text-align: center;
-	width: 100%;
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  color: ivory;
 }
 
-h1 {
-	font-size: 25px;
-  font-family:Palatino,'Palatino Linotype',serif;
-  color:Burlywood;
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: ivory;
+  padding: 25px;
 }
 
-h2 {
-	font-size:25px;
+.carousel-inner img {
+  width: 100%; /* Set width to 100% */
+  margin: auto;
+  min-height:200px;
 }
 
-
-.hero {
-  font-family: 'Trebuchet MS',Helvetica, sans-serif;
-	padding: 200px 0;
-	margin: 30px;
-	font-size:40px;
-	background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vectorstock.com%2Froyalty-free-vector%2Fworld-map-countries-geography-vector-9920386&psig=AOvVaw388ZJN74MIhg5xcglfnnjw&ust=1588936695837000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLiW18zQoekCFQAAAAAdAAAAABAE");
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+.carousel-caption {
+  display: none;
 }
-
-
-p {
-  font-size:20px;
-	color: darkmagenta;
-
 }
-
-.hero a {
-	color: #00FFAA;
-	font-size: 1.25em;
-	text-decoration: none;
