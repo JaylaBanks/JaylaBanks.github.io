@@ -3,7 +3,7 @@
   margin-bottom: 0;
   border-radius: 0;
   background-color:#90AEC6;
-  border-color:tan;
+  border-color:#90AEC6;
 }
 
 /* Add a gray background color and some padding to the footer */
@@ -24,4 +24,12 @@ footer {
 .carousel-caption {
   display: none;
 }
+}
 h2{ font-family: sans-serif;}
+
+.project-img{
+  object-fit: cover;
+  width:100%;
+min-height:150px;
+  max-height:150px;
+}
