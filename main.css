@@ -2,19 +2,21 @@
 .navbar {
   margin-bottom: 0;
   border-radius: 0;
-  color: ivory;
+  background-color:#90AEC6;
+  border-color:tan;
 }
 
 /* Add a gray background color and some padding to the footer */
 footer {
-  background-color: ivory;
+  background-color:#90AEC6;
   padding: 25px;
 }
 
 .carousel-inner img {
   width: 100%; /* Set width to 100% */
   margin: auto;
-  min-height:200px;
+  max-height:350px;
+  object-fit: cover;
 }
 
 /* Hide the carousel text when the screen is less than 600 pixels wide */
@@ -22,4 +24,4 @@ footer {
 .carousel-caption {
   display: none;
 }
-}
+h2{ font-family: sans-serif;}
