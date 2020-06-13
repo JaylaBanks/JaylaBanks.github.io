@@ -2,13 +2,13 @@
 .navbar {
   margin-bottom: 0;
   border-radius: 0;
-  background-color:#90AEC6;
-  border-color:#90AEC6;
+  background-color:#B0E0E6;
+  border-color:#B0E0E6;
 }
 
 /* Add a gray background color and some padding to the footer */
 footer {
-  background-color:#90AEC6;
+  background-color:#B0E0E6;
   padding: 25px;
 }
 
@@ -25,7 +25,7 @@ footer {
   display: none;
 }
 }
-h2{ font-family: sans-serif;}
+body{ font-family: "Times New Roman", Helvetica, sans-serif !important;}
 
 .project-img{
   object-fit: cover;
